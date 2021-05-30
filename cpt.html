@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>CPT | Vogel Firm</title>
+
+        <!-- Favicon -->
+        <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+        <!-- Bootstrap CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Animate CSS -->
+        <link href="vendors/animate/animate.css" rel="stylesheet">
+        <!-- Icon CSS-->
+        <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+        <!-- Camera Slider -->
+        <link rel="stylesheet" href="vendors/camera-slider/camera.css">
+        <!-- Owlcarousel CSS-->
+        <link rel="stylesheet" type="text/css" href="vendors/owl_carousel/owl.carousel.css" media="all">
+        <!-- Lightbox CSS-->
+        <link rel="stylesheet" type="text/css" href="vendors/lightbox/css/lightbox.min.css" media="all">
+
+        <!--Theme Styles CSS-->
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+         <!--MYEDIT StyleSheet-->
+         <link rel="stylesheet" type="text/css" href="css/StyleEdit.css" media="all" />
+    </head>
+    <body>
+        <!-- Preloader -->
+        <div class="preloader"></div>
+
+        
+        <div class="Main_page_container">
+
+            <!-- Top Header_Area -->
+            <div class="top_header_area" id="fixed_section"></div>
+            <!-- End Top Header_Area -->
+
+            <!-- Header_Area -->
+            <nav class="navbar navbar-default header_aera" id="main_navbar">
+                <div class="container">
+                    <!-- searchForm -->
+                    <div class="searchForm">
+                        <form action="#" class="row m0">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                                <input type="search" name="search" class="form-control" placeholder="Type & Hit Enter">
+                                <span class="input-group-addon form_hide"><i class="fa fa-times"></i></span>
+                            </div>
+                        </form>
+                    </div><!-- End searchForm -->
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="col-md-2 p0">
+                        <div class="navbar-header">
+                            <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#min_navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>-->
+
+                            <!--Start mobile side menu-->
+                            
+                            <div id="mobile_menu_button"><i class="fa fa-angle-right"></i></div>
+                            <div class="menu_background"></div>
+                            <div class="mobile_menu">
+                                
+                                <div class="mob_menu_main">
+                                    <a class="mob_menu_a menu_drop" href="index.html" data_hover="false" data_active="false" onclick="mobNavigationClick(0)" onmouseover="mobNavigationHover(0)" onmouseout="mobNavigationHover(0)"><i class="fa fa-angle-right"></i>Home </a>
+                                    <a  class="mob_menu_a menu_drop" href="about.html" data_hover="false" data_active="false" onclick="mobNavigationClick(1)" onmouseover="mobNavigationHover(1)" onmouseout="mobNavigationHover(1)"><i class="fa fa-angle-right"></i>About</a>
+                                    <a  class="mob_menu_a menu_drop" data_hover="false" data_active="false" onclick="mobNavigationClick(2)" onmouseover="mobNavigationHover(2)" onmouseout="mobNavigationHover(2)"><i class="fa fa-angle-right"></i>Technology</a>
+                                    <div class="drp_menu">
+                                        <a  class="mob_menu_a" href="technologies.html">- Water Management</a>
+                                        <a  class="mob_menu_a"href="#">- Waste Water Management</a>
+                                        <a  class="mob_menu_a"href="#">- Drinking Water</a>
+                                        <a  class="mob_menu_a" href="#">- Zero Liquid Discharge</a>
+                                        <a  class="mob_menu_a"href="#">- Water Management for Oil & Gas</a>
+                                        <a  class="mob_menu_a"href="#">- Others</a></li>
+                                    </div>                                    
+                                    <a class="mob_menu_a menu_drop" data_hover="false" data_active="false" onclick="mobNavigationClick(3)" onmouseover="mobNavigationHover(3)" onmouseout="mobNavigationHover(3)" ><i class="fa fa-angle-right"></i>Solutions </a>
+                                    <div class="drp_menu">
+                                        <a  class="mob_menu_a" href="solutions.html">- Water Management</a>
+                                        <a  class="mob_menu_a"href="#">- Waste Water Management</a>
+                                        <a  class="mob_menu_a"href="#">- Drinking Water</a>
+                                        <a  class="mob_menu_a" href="#">- Zero Liquid Discharge</a>
+                                        <a  class="mob_menu_a"href="#">- Water Management for Oil & Gas</a>
+                                        <a  class="mob_menu_a"href="#">- Others</a></li>
+                                    </div>
+                                    <a class="mob_menu_a menu_drop" data_hover="false" data_active="false" onclick="mobNavigationClick(4)" onmouseover="mobNavigationHover(4)" onmouseout="mobNavigationHover(4)"><i class="fa fa-angle-right"></i>Sectors</a>
+                                    <div class="drp_menu">
+                                        <a  class="mob_menu_a" href="bridgeScraper.html">- Commercial</a>
+                                        <a  class="mob_menu_a" href="cableOperated.html">- Industrial</a>
+                                        <a  class="mob_menu_a" href="gritClassifier.html">- Government</a>
+                                        <a  class="mob_menu_a" href="screeningsPress.htmlSS">- Oil & Gas</a>
+                                    </div>
+                                    <a class="mob_menu_a menu_drop" data_hover="false" data_active="false" onclick="mobNavigationClick(5)" onmouseover="mobNavigationHover(5)" onmouseout="mobNavigationHover(5)"><i class="fa fa-angle-right"></i>Our Areas </a>
+                                    <div class="drp_menu">
+                                        <a  class="mob_menu_a"href="#">- Dummy</a>
+                                        <a  class="mob_menu_a"href="#">- Dummy</a>
+                                    </div>
+                                    <a class="mob_menu_a menu_drop" data_hover="false" data_active="false" onclick="mobNavigationClick(6)" onmouseover="mobNavigationHover(6)" onmouseout="mobNavigationHover(6)"><i class="fa fa-angle-right"></i>Clients</a>
+                                    <div class="drp_menu">
+                                        <a  class="mob_menu_a"href="#">- Dummy</a>
+                                        <a  class="mob_menu_a"href="#">- Dummy</a>
+                                    </div>
+                                </div>
+
+                                <div class="contacts">
+                                        <a class="mob_menu_a" href="#"><i class="fa fa-phone"></i>974-3333 8888</a>
+                                        <a  class="mob_menu_a"href="#"><i class="fa fa-envelope-o"></i>info@vogelfirm.com</a>
+                                        <div class="social_info">
+                                            <a  class="mob_menu_a"href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                            <a  class="mob_menu_a"href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                            <a  class="mob_menu_a"href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                        </div>
+                                </div>
+                                
+                            </div>
+                            <!--Start mobile side menu-->
+                            <div></div>
+                            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+                        </div>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="col-md-10 p0">
+                        <div class="collapse navbar-collapse" id="min_navbar">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li class="dropdown submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology</a>
+                                    <ul class="dropdown-menu other_dropdwn">
+                                        <li><a href="#">Water Management</a></li>
+                                        <li><a href="#">Waste Water Management</a></li>
+                                        <li><a href="#">Drinking Water</a></li>
+                                        <li><a href="#">Zero Liquid Discharge</a></li>
+                                        <li><a href="#">Water Management for Oil & Gas</a></li>
+                                        <li><a href="#">Others</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Solutions</a>
+                                    <ul class="dropdown-menu other_dropdwn">
+                                        <li><a href="#">Water Management</a></li>
+                                        <li><a href="#">Waste Water Management</a></li>
+                                        <li><a href="#">Drinking Water</a></li>
+                                        <li><a href="#">Zero Liquid Discharge</a></li>
+                                        <li><a href="#">Water Management for Oil & Gas</a></li>
+                                        <li><a href="#">Others</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sectors</a>
+                                    <ul class="dropdown-menu other_dropdwn">
+                                        <li><a href="#">Commercial</a></li>
+                                        <li><a href="#">Industrial</a></li>
+                                        <li><a href="#">Government</a></li>
+                                        <li><a href="#">Oil & Gas</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Areas</a>
+                                    <ul class="dropdown-menu other_dropdwn">
+                                        <li><a href="#">Dummy</a></li>
+                                        <li><a href="#">Dummy</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown submenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Clients</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Dummy</a></li>
+                                        <li><a href="#">Dummy</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <!-- <li><a href="#" class="nav_searchFrom"><i class="fa fa-search"></i></a></li> -->
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div>
+                </div><!-- /.container -->
+            </nav>
+            <!-- End Header_Area -->
+            
+
+            <!-- Top Header_Area -->
+            <section class="top_header_area">
+                
+            </section>
+
+        <!-- Banner area -->
+        <section class="banner_area" data-stellar-background-ratio="0.5">
+            <h2>Compact Pretreatment Unit (CPT)</h2>
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#" class="active">Compact Pretreatment Unit (CPT)</a></li>
+            </ol>
+        </section>
+        <!-- End Banner area -->
+
+        <!-- Start Cable Operated Area -->
+        <!--<section class="building_construction_area">
+            <div class="container">
+                <div class="row building_construction_row">
+
+                    <div class="col-md-6 constructing_left">
+                        <h2>COMPACT PRETREATMENT UNIT (CPT)</h2>
+                        <img src="images/compact.jpg" alt="">
+                        <br><br>
+                        <h4>In such pretreatment it is included:</h4>
+                        <p>
+                                -The elimination of solids (screening or separation).<br>
+                                -The grit elimination (grit removal).<br>
+                                -The elimination of grease (grease removal).<br>
+                                -The Pretreatment compact plant, installations allow to carry out the above mentioned treatments in a single equipment and for flows up to 150 l/s (540 m3/h).<br>
+                                -The waste water is introduced to the entry of the equipment through a flange connected pipe.<br>
+                                -The solids contained in the liquid are trapped in the screen and during their extraction a series of nozzles of great performance and power proceed to their washing to eliminate the most of the existing organics substances.<br>
+                                -In the lower level of the screen the compacting/dehydration of the screenings is carried out with the obvious and significant reduction of their volume before they are discharged in a container or plastic bag designed for such purpose. The liquid that travels through the screen enters a hopper where, optimized by the introduction of air, the existing grit sediments. A conveyor takes care of its dehydration and discharges it into the container designed for this purpose.<br>
+                                -In this same hopper, also optimized by the introduction of air, the process of the existing grease substances “flotation” is then carried out, and an In this same hopper, also optimized by the introduction of air, the process of the existing grease substances “flotation” is then carried out, and an appropriate device takes care of dehydrating them and discharges them in a container.
+                        </p>
+                    </div>
+
+                    <div class="col-md-6 constructing_right">
+                        <img src="images/compact2.jpg" alt="" style="width: 100%;">
+                        <img src="images/compact3.jpg" alt="" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+        </section>-->
+
+        <section class="construction_area">
+            <div class="container">
+                <h2>COMPACT PRETREATMENT UNIT (CPT)</h2>
+                <div class="gallery">
+                    <p class="slider_path" style="display: none">../images/compact.jpg</p>
+                    <p class="slider_path" style="display: none">../images/compact2.jpg</p>
+                    <p class="slider_path" style="display: none">../images/compact3.jpg</p>
+                    <div class="slide">
+                        <div class="bulet"></div>
+                        <div class="bulet"></div>
+                        <div class="bulet"></div>
+                    </div>
+                    <!--<div class="slide" >
+                        <img src="images/compact2.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="slide" >
+                        <img src="images/compact3.jpg" alt="" style="width: 100%;">
+                    </div>-->
+                </div>
+                <div class="text">
+                    <h4>In such pretreatment it is included:</h4>
+                    <br>
+                    <p>
+                            -The elimination of solids (screening or separation).<br>
+                            -The grit elimination (grit removal).<br>
+                            -The elimination of grease (grease removal).<br>
+                            -The Pretreatment compact plant, installations allow to carry out the above mentioned treatments in a single equipment and for flows up to 150 l/s (540 m3/h).<br>
+                            -The waste water is introduced to the entry of the equipment through a flange connected pipe.<br>
+                            -The solids contained in the liquid are trapped in the screen and during their extraction a series of nozzles of great performance and power proceed to their washing to eliminate the most of the existing organics substances.<br>
+                            -In the lower level of the screen the compacting/dehydration of the screenings is carried out with the obvious and significant reduction of their volume before they are discharged in a container or plastic bag designed for such purpose. The liquid that travels through the screen enters a hopper where, optimized by the introduction of air, the existing grit sediments. A conveyor takes care of its dehydration and discharges it into the container designed for this purpose.<br>
+                            -In this same hopper, also optimized by the introduction of air, the process of the existing grease substances “flotation” is then carried out, and an In this same hopper, also optimized by the introduction of air, the process of the existing grease substances “flotation” is then carried out, and an appropriate device takes care of dehydrating them and discharges them in a container.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- End Bridge Scraper Area -->
+
+            <!-- Footer Area -->
+            <footer class="footer_area">
+                <div class="container">
+                    <div class="footer_row row">
+                        <div class="col-md-4 col-sm-6 footer_about">
+                            <h2>ABOUT OUR COMPANY</h2>
+                            <img src="images/logo.png" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="col-md-4 col-sm-6 footer_about quick">
+                            <h2>Solutions</h2>
+                            <ul class="quick_link">
+                                <li><a href="#"><i class="fa fa-chevron-right"></i>Water Management</a></li>
+                                <li><a href="#"><i class="fa fa-chevron-right"></i>Waste Water Management</a></li>
+                                <li><a href="#"><i class="fa fa-chevron-right"></i>Drinking Water</a></li>
+                                <li><a href="#"><i class="fa fa-chevron-right"></i>Zero Liquid Discharge</a></li>
+                                <li><a href="#"><i class="fa fa-chevron-right"></i>Water Management for Oil & Gas</a></li>
+                            </ul>
+                        </div>
+                        <!-- <div class="col-md-4 col-sm-6 footer_about">
+                            <h2>Solutions</h2>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Water Management</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Waste Water Management</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Drinking Water</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Zero Liquid Discharge</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Water Management for Oil & Gas</a></li>
+                        </div> -->
+                        <div class="col-md-4 col-sm-6 footer_about">
+                            <h2>CONTACT US</h2>
+                            <address>
+                                <p>Have questions, comments or just want to say hello:</p>
+                                <ul class="my_address">
+                                    <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>info@vogelfirm.com</a></li>
+                                    <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>974-3333 8888</a></li>
+                                    <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i><span>budapest - hungary</span></a></li>
+                                </ul>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright_area">
+                        <div class="text">
+                        <p style="color: white">Copyright 2019 All rights reserved. Designed by <a href="#">VOGEL</a></p>
+                        </div>
+                        <div class="social_icon">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <!-- <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> -->
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+            
+            </footer>
+        
+        <!-- End Footer Area -->
+        <!-- jQuery JS -->
+        <script src="js/jquery-1.12.0.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Animate JS -->
+        <script src="vendors/animate/wow.min.js"></script>
+        <!-- Camera Slider -->
+        <script src="vendors/camera-slider/jquery.easing.1.3.js"></script>
+        <script src="vendors/camera-slider/camera.min.js"></script>
+        <!-- Isotope JS -->
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope.pkgd.min.js"></script>
+        <!-- Progress JS -->
+        <script src="vendors/Counter-Up/jquery.counterup.min.js"></script>
+        <script src="vendors/Counter-Up/waypoints.min.js"></script>
+        <!-- Owlcarousel JS -->
+        <script src="vendors/owl_carousel/owl.carousel.min.js"></script>
+        <!-- Stellar JS -->
+        <script src="vendors/stellar/jquery.stellar.js"></script>
+        <!-- Lightbox JS -->
+        <script src="vendors/lightbox/js/lightbox.min.js"></script>
+        <!-- Theme JS -->
+        <script src="js/theme.js"></script>
+         <!--My script JS-->
+         <script src="js/Myscript.js"></script>
+    </body>
+</html>
